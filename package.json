@@ -1,0 +1,30 @@
+{
+  "name": "sketch-icon-font",
+  "version": "1.0.0",
+  "description": "Grunt based workflow to create an icon-font from a Sketch file",
+  "private": true,
+  "scripts": {
+    "create-font": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagelflorian/sketch-icon-font.git"
+  },
+  "keywords": [
+    "sketch",
+    "icon-font",
+    "svg",
+    "grunt"
+  ],
+  "author": "Florian Nagel <hello@floriannagel.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nagelflorian/sketch-icon-font/issues"
+  },
+  "homepage": "https://github.com/nagelflorian/sketch-icon-font#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-shell": "^1.3.0",
+    "grunt-webfont": "^1.4.0"
+  }
+}
