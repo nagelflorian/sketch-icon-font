@@ -2,6 +2,8 @@
 
 Grunt based workflow to create an icon-font from a Sketch file.
 
+![screen recording](https://cloud.githubusercontent.com/assets/7649376/17498025/031f4dc6-5dc5-11e6-8a7d-5d93476fbdde.gif)
+
 ## Installation
 
 Install [SketchTool](http://www.sketchapp.com/tool/) (Sketch command line tool) to be able to export slices from your Sketch file. Then install grunt and some plugins using:
