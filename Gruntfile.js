@@ -5,6 +5,29 @@ module.exports = function(grunt) {
         command: 'sketchtool export slices icons.sketch --output=output/icons/'
       }
     },
+    svgmin: {
+      options: {
+        plugins: [
+          {
+            removeViewBox: false
+          }, {
+            removeUselessStrokeAndFill: false
+          }, {
+            removeAttrs: {
+              attrs: ['xmlns']
+            }
+          }
+        ]
+      },
+      multiple: {
+        files: [{
+					expand: true,
+					cwd: 'output/icons/',
+					src: ['**/*.svg'],
+					dest: 'output/icons/'
+				}]
+      }
+    },
     webfont: {
       icons: {
         src: './output/icons/*.svg',
@@ -27,10 +50,12 @@ module.exports = function(grunt) {
 
   var tasks = [
     'shell:exportIcons',
+    'svgmin',
     'webfont:icons'
   ]
 
   grunt.loadNpmTasks('grunt-shell')
+  grunt.loadNpmTasks('grunt-svgmin')
   grunt.loadNpmTasks('grunt-webfont')
 
   if (grunt.file.exists('aws-keys.json')) {

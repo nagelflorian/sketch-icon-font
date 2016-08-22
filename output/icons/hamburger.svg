@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
-    <title>hamburger</title>
-    <desc>Created with sketchtool.</desc>
-    <defs></defs>
-    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icons" transform="translate(-24.000000, -24.000000)" fill="#000000">
-            <g id="Hamburger" transform="translate(24.000000, 24.000000)">
-                <rect id="bottom-bar" x="3" y="17" width="18" height="2"></rect>
-                <rect id="middle-bar" x="3" y="11" width="18" height="2"></rect>
-                <rect id="top-bar" x="3" y="5" width="18" height="2"></rect>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg width="24" height="24" viewBox="0 0 24 24"><title>hamburger</title><g fill="#000" fill-rule="evenodd"><path d="M3 17h18v2H3zM3 11h18v2H3zM3 5h18v2H3z"/></g></svg>
